@@ -1,4 +1,9 @@
 package com.pajasoft.musicapp.Models
 
-class Album {
-}
+data class Album (
+    val id : String,
+    val title: String,
+    val artist: String,
+    val description: String,
+    val image: String
+)
